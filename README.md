@@ -1,13 +1,13 @@
-# Movie_Recommendation_Site
-Implementation of Movie Recommendation System Using Flask, HTML, CSS and SQL
+# Image Style Transfer using CycleGANs
+Image style transfer involves modifying an image to adopt the visual style of another image while preserving its original content. CycleGAN (Cycle-Consistent Generative Adversarial Network) enables this transformation without requiring paired training examples. It uses two GANs, each consisting of a generator and a discriminator, to translate images between two domains. The generators aim to convert images from one domain to another, while the discriminators assess the authenticity of these generated images. The key innovation is cycle consistency, where an image translated to the other domain and then back should closely resemble the original, ensuring content preservation. The model is trained using both cycle consistency loss and adversarial loss, achieving high-quality style transfer.
 
-## Files
+## Front-end
 The repository includes the following files:
 
 * content.py: A Python script that contains the Movie Recommendation Model which is loaded on to a pickle file.
 * model.pkl: A pickle file that contains the Recommendation Model.
 * app.py: The main Flask application that redirects all the html pages and connects to the sql database to store and check the records during login.
-### Templates:
+### Back-end:
 It contain all the html files.
 * index.html: A HTML file that serves as the first page i.e the register page.
 ![Screenshot 2023-04-02 155028](https://user-images.githubusercontent.com/116349435/229347132-f040536d-e117-4a77-bf3c-fb64bdb15fe5.png)
