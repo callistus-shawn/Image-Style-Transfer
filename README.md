@@ -4,6 +4,7 @@ Image style transfer involves modifying an image to adopt the visual style of an
 
 #### Front-end: 
 Simple UI with React to create a dynamic and responsive interface for users to upload and transform images in real time.
+
 ![]( https://github.com/callistus-shawn/Image-Style-Transfer/blob/main/test/readme.gif)
 #### Server : 
 Using Flask for the backend allows seamless integration of the image style transfer models with a lightweight and flexible web server.
