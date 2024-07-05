@@ -12,19 +12,9 @@ Simple UI with React to create a dynamic and responsive interface for users to u
 ![]( https://github.com/callistus-shawn/Image-Style-Transfer/blob/main/test/readme.gif)
 #### Server : 
 Using Flask for the backend allows seamless integration of the image style transfer models with front-end.
+
 #### Models:
 
 
-
-
-## How to run the application
-* Clone the repository to your local machine
-* Ensure that Python, Flask, and all necessary dependencies are installed.
-* Open the terminal/command prompt and navigate to the cloned directory.
-* Run python app.py to start the application.
-* Open a web browser and go to http://localhost:5000 to access the page.
-* Enter the username and password to access the homepage page.
-* In that page, enter any popular movie of your choice in the text field.
-* Then you'll get a few suggestions listed below.
 
 
