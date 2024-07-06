@@ -8,6 +8,9 @@ Image style transfer involves modifying an image to adopt the visual style of an
 * **Monet**: Monet's style uses quick, loose brushstrokes; Style of impressionism. (Cycle-GAN)
 * **Pencil Sketch**: Pencil sketching uses shading and lines to make detailed black-and-white drawings (OpenCV)
 
+![Screenshot 2024-07-06 092831](https://github.com/callistus-shawn/Image-Style-Transfer/assets/174804283/9320c10d-c105-4045-9ef5-5a1b60c5fdce)
+
+
 ### Front-end: 
 Simple UI with **React** to create a dynamic and responsive interface for users to upload and transform images in real time.
 
