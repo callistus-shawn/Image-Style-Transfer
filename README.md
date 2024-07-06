@@ -10,6 +10,8 @@ Image style transfer involves modifying an image to adopt the visual style of an
 
 ![Screenshot 2024-07-06 092831](https://github.com/callistus-shawn/Image-Style-Transfer/assets/174804283/9320c10d-c105-4045-9ef5-5a1b60c5fdce)
 
+We chose these styles just to show variety. There's lot more styles you could add to this in the future.
+
 
 ### Front-end: 
 Simple UI with **React** to create a dynamic and responsive interface for users to upload and transform images in real time.
