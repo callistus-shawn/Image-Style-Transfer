@@ -3,19 +3,19 @@ Image style transfer involves modifying an image to adopt the visual style of an
 * It uses two GANs, each consisting of a generator and a discriminator, to translate images between two domains. 
 * The key innovation is cycle consistency, where an image translated to the other domain and then back should closely resemble the original, ensuring content preservation. The model is trained using both cycle consistency loss and adversarial loss, achieving high-quality style transfer.
 * Styles such as Pencil Sketching can be done using OpenCV transformations
-#### Styles:
+### Styles:
 * **Ukiyo-e**: Ukiyo-e is a traditional Japanese art style with a creamish tone to its art. (Cycle-GAN)
 * **Monet**: Monet's style uses quick, loose brushstrokes; Style of impressionism. (Cycle-GAN)
 * **Pencil Sketch**: Pencil sketching uses shading and lines to make detailed black-and-white drawings (OpenCV)
 
-#### Front-end: 
+### Front-end: 
 Simple UI with **React** to create a dynamic and responsive interface for users to upload and transform images in real time.
 
 ![]( https://github.com/callistus-shawn/Image-Style-Transfer/blob/main/test/readme.gif)
-#### Server : 
+### Server : 
 Using **Flask** for the backend allows seamless integration of the image style transfer models with front-end.
 
-#### Datasets:
+### Datasets:
 * I’m Something of a Painter Myself- Kaggle
 * Best Artworks of All Time -Kaggle
 
